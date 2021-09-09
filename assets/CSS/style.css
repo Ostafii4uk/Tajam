@@ -1,7 +1,6 @@
 body{
-    margin: auto;
+    margin: 0;
     color: #fff;
-    width: 100%;
 }
 
 *,*:before,*:after{
@@ -12,7 +11,10 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
-/* Шапка сайту */
+
+/* HEADER */
+
+
 .header{
     width: 100%;
     height: 670px;
@@ -24,7 +26,8 @@ a{
     text-decoration: none;
 }
 
-/* Навігація */
+/* NAVBAR*/
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -68,7 +71,8 @@ a{
     color: #00e0d0;
 }
 
-/* Main шапки */
+/* HEADERMAIN */
+
 .headermain{
     width: 100%;
     max-width: 800px;
@@ -118,6 +122,7 @@ a{
 }
 
 /* DOT-и */
+
 .headerfooter{
     margin: 10px auto;
     text-align: center;
@@ -132,7 +137,7 @@ a{
 }
 
 
-/* Content */
+/* MAIN */
 
 
 
@@ -191,7 +196,7 @@ a{
     border-color: black;
 }
 
-/* Відтворення відео */
+/* OURVIDEO */
 
 .ourvideo{
     display: flex;
@@ -395,9 +400,9 @@ a{
 /* WORKS */
 
 .works{
-    width: 100%;
-    height: 740px;
     margin: 0 auto;
+    height: 100%;
+    max-height: 740px;
 }
 
 .headerworks{
@@ -427,53 +432,26 @@ a{
 
 .mainworks{
     margin: 0 auto;
-    height: 400px;
+    height: 100%;
+    max-height: 400px;
     width: 100%;
     max-width: 1600px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .mainworks-top,.mainworks-bottom{
-    margin: 0 auto;
-    height: 200px;
+    height: 100%;
+    max-height: 200px;
     display: flex;
+    justify-content: center;
 }
 
-@media (max-width: 1650px) {
-    .mainworks-item{
-        width: 250px;
-    }
-}
-
-@media (max-width: 1550px) {
-    .mainworks-item{
-        width: 230px;
-    }
-}
-
-@media (max-width: 1460px) {
-    .mainworks-item{
-        width: 200px;
-    }
-}
-
-@media (max-width: 1360px) {
-    .mainworks-item{
-        width: 190px;
-    }
-}
-
-@media (max-width: 1290px) {
-    .mainworks-item{
-        width: 180px;
-    }
-}
-
-@media (max-width: 1220px) {
-    .mainworks-item{
-        width: 180px;
-    }
+.imgworks{
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
 }
 
 .footerworks{
@@ -650,7 +628,9 @@ a{
     justify-content: space-between;
 }
 
+
 /* FOOTER */
+
 
 .footer{
     width: 100%;
