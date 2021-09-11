@@ -39,7 +39,7 @@ a{
 }
 
 
-.textheaderlogo{
+.text-header-logo{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -50,7 +50,7 @@ a{
 
 }
 
-.textheaderlogo:hover{
+.text-header-logo:hover{
     color: #00e0d0;
 }
 
@@ -59,7 +59,7 @@ a{
     text-transform: uppercase;
 }
 
-.navlink{
+.nav-link{
     color: #ffffff;
     transition: color 0.3s linear;
     display: inline-block;
@@ -67,27 +67,27 @@ a{
     margin: 0 5px;
 }
 
-.navlink:hover{
+.nav-link:hover{
     color: #00e0d0;
 }
 
 /* HEADERMAIN */
 
-.headermain{
+.header-main{
     width: 100%;
     max-width: 800px;
     margin: 130px auto;
     text-align: center;
 }
 
-.h1hm{
+.h1-hm{
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-size: 32px;
     text-transform: capitalize;
 }
 
-.h1hm::after {
+.h1-hm::after {
     content: "";
     display: block;
     width: 50px;
@@ -96,7 +96,7 @@ a{
     margin: 20px auto;
 }
 
-.h2hm {
+.h2-hm {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px; 
@@ -123,7 +123,7 @@ a{
 
 /* DOT-и */
 
-.headerfooter{
+.header-footer{
     margin: 10px auto;
     text-align: center;
 }
@@ -143,8 +143,8 @@ a{
 
 /* Story */
 .ourstory{
-    max-width: 100%;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     height: 400px;
     margin: 0px auto;
     display: flex;
@@ -153,16 +153,16 @@ a{
     justify-content: space-between;
 }
 
-.imgourstory{
+.img-ourstory{
     margin: 50px 50px;
 }
 
-.textour{
+.text-our{
     text-align: left;
     margin: 50px 50px;
 }
 
-.tittleour{
+.tittle-our{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: black;
@@ -170,14 +170,14 @@ a{
     font-size: 22px;
 }
 
-.subtittleour{
+.subtittle-our{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 300;
     font-size: 14px;
 }
 
-.ourbtm{
+.our-btm{
     display: inline-block;
     vertical-align: middle;
     border: 1px solid #00e0d0;
@@ -191,7 +191,7 @@ a{
     transition: border-color 0.3s linear, color 0.3s linear;
 }
 
-.ourbtm:hover{
+.our-btm:hover{
     color: black;
     border-color: black;
 }
@@ -209,18 +209,18 @@ a{
     background: url(../images/ourvideo.jpg) center no-repeat;
 }
 
-.playlogo{
+.play-logo{
     fill: none;
     stroke: #fff;
     stroke-width: 3px;
     transition: 0.3s linear;
 }
 
-.playlogo:hover{
+.play-logo:hover{
     stroke: #00e0d0;
 }
 
-.btmvideo{
+.btm-video{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 16px;
@@ -230,7 +230,7 @@ a{
     margin: 20px auto;
 }
 
-.btmvideo:hover{
+.btm-video:hover{
     color: #00e0d0;
 }
 
@@ -241,12 +241,12 @@ a{
     margin: 0 auto;
 }
 
-.headerxpertise{
+.header-expertise{
     text-align: center;
     margin: 40px auto;
 }
 
-.row1{
+.expertise-item1{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -255,7 +255,7 @@ a{
     margin-top: 50px;
 }
 
-.row2{
+.expertise-item2{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -279,7 +279,7 @@ a{
     margin: 20px auto;
 }
 
-.subtitle{
+.sub-title{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 14px;
@@ -287,7 +287,7 @@ a{
     margin: 20px auto;
 }
 
-.subtitle::after{
+.sub-title::after{
     content: "";
     display: block;
     width: 30px;
@@ -296,7 +296,7 @@ a{
     margin: 20px auto;
 }
 
-.subtitlewrap{
+.sub-titlewrap{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 14px;
@@ -320,11 +320,11 @@ a{
 
 }
 
-.headerteam{
+.header-team{
     text-align: center;
 }
 
-.teamtitle{
+.team-title{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 22px;
@@ -332,14 +332,14 @@ a{
     padding-top: 50px;
 }
 
-.teamsubtitle{
+.team-subtitle{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 14px;
     color: #fff;
 }
 
-.teamsubtitle::after{
+.team-subtitle::after{
     content: "";
     display: block;
     width: 30px;
@@ -348,7 +348,7 @@ a{
     margin: 20px auto;
 }
 
-.items{
+.items-team{
     width: 960px;
     height: 390px;
     margin: 30px auto;
@@ -386,7 +386,7 @@ a{
     text-align: center;
 }
 
-.expertisetext{
+.expertise-text{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -405,7 +405,7 @@ a{
     max-height: 740px;
 }
 
-.headerworks{
+.header-works{
     width: 100%;
     max-width: 960px;
     height: 158px;
@@ -416,21 +416,21 @@ a{
     align-items: center;
 }
 
-.namework{
+.name-work{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 22px;
     color: #413d4b;
 }
 
-.aproject{
+.a-project{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 14px;
     color: #413d4b;
 }
 
-.mainworks{
+.main-works{
     margin: 0 auto;
     height: 100%;
     max-height: 400px;
@@ -448,13 +448,13 @@ a{
     justify-content: center;
 }
 
-.imgworks{
+.img-works{
     width: 100%;
     height: 100%;
     max-height: 200px;
 }
 
-.footerworks{
+.footer-works{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -463,7 +463,7 @@ a{
 /* TESTIMONIALS */
 
 .testimonials{
-    height: 499px;
+    height: 500px;
     width: 100%;
     margin: 0 auto;
     background: url(../images/Testimonials.jpg) center no-repeat;
@@ -478,10 +478,9 @@ a{
 
     width: 100%;
     height: 100px;
-    margin: 30px auto;
 }
 
-.texttestimonials{
+.text-testimonials{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 16px;
@@ -493,7 +492,7 @@ a{
     margin: 30px auto;
 }
 
-.nametexttestimonials{
+.name-text-testimonials{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 14px;
@@ -504,7 +503,7 @@ a{
 
 }
 
-.positiontestimonials{
+.position-testimonials{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 13px;
@@ -513,20 +512,23 @@ a{
     margin: 0 auto;
 }
 
-.navtestimonials{
-    width: 390px;
-    height: 70px;
-    margin: 60px auto;
+.nav-testimonials{
+    width: 100%;
+    max-width: 390px;
+    height: 100%;
+    max-height: 70px;
+    margin: 45px auto 70px auto;
 }
 
-.navtestimonialsitems{
+.nav-testimonials-items{
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.rightleft{
+.right-left{
     color: #fff;
 }
 
@@ -539,22 +541,22 @@ a{
     margin: 0 auto;
 }
 
-.contactitems{
+.contact-items{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.contact1,.contact2{
+.contact-1,.contact-2{
     height: 650px;
     width: 480px;
 }
 
-.contact2{
+.contact-2{
     padding-left: 80px;
 }
 
-.textcontact{
+.text-contact{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 22px;
@@ -562,7 +564,7 @@ a{
     margin: 70px auto 35px;
 }
 
-.nameinput,.emailinput,.subjectinput{
+.name-input,.email-input,.subject-input{
     background: #fff;
     width: 460px;
     height: 45px;
@@ -576,7 +578,7 @@ a{
     padding: 22px 20px;
 }
 
-.umassageinput{
+.u-massage-input{
     background: #fff;
     width: 460px;
     height: 200px;
@@ -591,11 +593,11 @@ a{
     padding: 23px 344px 165px 20px;
 }
 
-.divbtncontact{
+.div-btn-contact{
     margin: 0 auto;
 }
 
-.btmcontact{
+.btm-contact{
     display: inline-block;
     border: 1px solid #00e0d0;
     padding: 13px 33px;
@@ -608,7 +610,7 @@ a{
     transition: border-color 0.3s linear, color 0.3s linear;
 }
 
-.btmcontact:hover{
+.btm-contact:hover{
     color: #000;
     border-color: #000;
 }
@@ -622,7 +624,7 @@ a{
     justify-content: space-between;
 }
 
-.client1,.client2{
+.client-1,.client-2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -639,7 +641,7 @@ a{
     margin: 0 auto;
 }
 
-.ftcontainer{
+.ft-container{
     width: 100%;
     max-width: 940px;
     height: 400px;
@@ -650,14 +652,14 @@ a{
     justify-content: space-around;
 }
 
-.ft1,.ft2,.ft3{
+.ft-1,.ft-2,.ft-3{
     width: 100%;
     max-width: 300px;
     height: 180px;
     margin: 0 20px 0 0;
 }
 
-.logoftcnt{
+.logo-ft-cnt{
     width: 100%;
     max-width: 300px;
     height: 52px;
@@ -667,11 +669,11 @@ a{
     align-items: center;
 }
 
-.imglogoftcnt{
+.img-logo-ft-cnt{
     margin-right: 10px;
 }
 
-.textft1{
+.text-ft-1{
     width: 100%;
     max-width: 300px;
     height: 110px;
@@ -681,7 +683,7 @@ a{
     line-height: 25px;
 }
 
-.bottomft1{
+.bottom-ft-1{
     width: 100%;
     max-width: 300px;
     height: 80px;
@@ -696,16 +698,16 @@ a{
     align-items: flex-end;
 }
 
-.abottomft1{
+.a-bottom-ft-1{
     color: #fff;
     transition: color 0.3s linear;
 }
 
-.abottomft1:hover{
+.a-bottom-ft-1:hover{
     color: #00e0d0;
 }
 
-.titletft2{
+.titlet-ft-2{
     width: 100%;
     max-width: 300px;
     height: 52px;
@@ -718,7 +720,7 @@ a{
     color: #fff;
 }
 
-.hrefadress1{
+.href-adress1{
     width: 100%;
     max-width: 310px;
     height: 70px;
@@ -727,14 +729,14 @@ a{
     flex-direction: row;
 }
 
-.imgadress{
+.img-adress{
     width: 100%;
     max-width: 14px;
     height: 19px;
     margin-right: 15px;
 }
 
-.textft2{
+.text-ft-2{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 14px;
@@ -743,17 +745,16 @@ a{
     transition: color 0.3s linear;
 }
 
-.textft2:hover{
+.text-ft-2:hover{
     color: #00e0d0;
 }
 
-.hrefadress2{
+.href-adress2{
     width: 100%;
     max-width: 160px;
     height: 37px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
 a[href^="tel"] {
@@ -761,14 +762,14 @@ a[href^="tel"] {
     text-decoration: none;
 }
 
-.imgphone{
+.img-phone{
     width: 100%;
     max-width: 17px;
     height: 17px;
     margin-right: 15px;
 }
 
-.formsb{
+.form-sb{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -776,7 +777,7 @@ a[href^="tel"] {
     margin-bottom: 35px;
 }
 
-.inputsb{
+.input-sb{
     background: transparent;
     border: 1px solid #fff;
 
@@ -792,7 +793,7 @@ a[href^="tel"] {
     
 }
 
-.btmpost{
+.btm-post{
     width: 100%;
     max-width: 70px;
     height: 45px;
@@ -805,38 +806,40 @@ a[href^="tel"] {
     cursor: pointer;
 }
 
-.imgpost{
+.img-post{
     width: 27px;
     height: 27px;
     margin: 0 auto;
 }
 
 
-.sociallogo{
+.social-logo{
     width: 100%;
     max-width: 290px;
     height: 36px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
-.bordersociallogo{
+.border-social-logo{
     width: 35px;
     height: 35px;
     border: 1px  solid #fff;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.imgsocial{
+.img-social{
     padding: 10px;
 }
 
-.BottomCopyright{
+.Bottom-Copyright{
     width: 100%;
     max-width: 230px;
     height: 15px;
-    margin: 60px 0px 60px auto;
+    margin: 55px 0px 55px auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
